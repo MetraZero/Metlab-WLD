@@ -1,6 +1,6 @@
 {
   "name": "com.metlab.wld.skybox",
-  "displayName": "スカイボックスをつくるやつ",
+  "displayName": "レイマーチングでスカイボックスをつくるやつ",
   "version": "1.0.0",
   "unity": "2022.3",
   "description": "時間帯・天気・街並みを選ぶだけで、街の夜景などのスカイボックス用マテリアルを作るエディタ拡張とシェーダー。",

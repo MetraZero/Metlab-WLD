@@ -2,12 +2,12 @@
 // MET_SkyboxGenerator
 // 概要: 街のスカイボックス（Metlab/Skybox/City）のマテリアルを、
 //       時間帯・街の明るさ・視点の高さ・街並みなどの設定から生成するエディタ拡張。
-//       メニュー「Tools > Metlab > スカイボックスをつくるやつ」で開く。
+//       メニュー「Tools > Metlab > レイマーチングでスカイボックスをつくるやつ」で開く。
 //
 //       使い方:
 //         1. 時間帯（夜・夕暮れ・昼・明け方）を選ぶ → 空・月/太陽・雲・建物・地面の色がそろう
 //         2. 街の明るさ・視点の高さ・街並み（建物の割合・道路・木）・空などを調整
-//         3. 「新しく生成」で Assets/MetlabGenerated/スカイボックスをつくるやつ/ にマテリアルを作る
+//         3. 「新しく生成」で Assets/MetlabGenerated/レイマーチングでスカイボックスをつくるやつ/ にマテリアルを作る
 //            「上書き」なら、指定したマテリアルに設定を書き込む（シーンに使っていればすぐ反映）
 //       シーンへの適用は自動では行わない（Lighting ウィンドウの Skybox Material に自分で設定）。
 //       生成したマテリアルは、インスペクタで1つずつ細かく調整してもよい。
@@ -41,8 +41,8 @@ namespace Metlab.Skybox
 {
     public class MET_SkyboxGenerator : EditorWindow
     {
-        private const string MENU_PATH = "Tools/Metlab/スカイボックスをつくるやつ";
-        private const string GENERATED_FOLDER = "Assets/MetlabGenerated/スカイボックスをつくるやつ";
+        private const string MENU_PATH = "Tools/Metlab/レイマーチングでスカイボックスをつくるやつ";
+        private const string GENERATED_FOLDER = "Assets/MetlabGenerated/レイマーチングでスカイボックスをつくるやつ";
         private const string CITY_SHADER = "Metlab/Skybox/City";
         private const string DEFAULT_NAME = "街の空";
 
@@ -118,7 +118,7 @@ namespace Metlab.Skybox
         [MenuItem(MENU_PATH)]
         private static void Open()
         {
-            var w = GetWindow<MET_SkyboxGenerator>("スカイボックスをつくるやつ");
+            var w = GetWindow<MET_SkyboxGenerator>("レイマーチングでスカイボックスをつくるやつ");
             w.minSize = new Vector2(380f, 520f);
         }
 

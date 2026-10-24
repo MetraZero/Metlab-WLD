@@ -1,0 +1,17 @@
+{
+  "name": "com.metlab.wld.playergrab",
+  "displayName": "ほかのプレイヤーをつかむやつ",
+  "version": "0.0.0",
+  "unity": "2022.3",
+  "description": "手に持ったアイテムで、離れた場所にいるほかのプレイヤーを掴んで、ふわふわ持ち上げて運べる UdonSharp ギミック。",
+  "author": {
+    "name": "MetraZero",
+    "url": "https://github.com/MetraZero"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/MetraZero/Metlab-WLD/tree/main/Packages/com.metlab.wld.playergrab",
+  "changelogUrl": "https://github.com/MetraZero/Metlab-WLD/blob/main/Packages/com.metlab.wld.playergrab/CHANGELOG.md",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.7.0"
+  }
+}

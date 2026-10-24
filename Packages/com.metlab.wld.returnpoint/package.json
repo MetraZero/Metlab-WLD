@@ -1,0 +1,17 @@
+{
+  "name": "com.metlab.wld.returnpoint",
+  "displayName": "落ちても元の場所にもどれるやつ",
+  "version": "0.0.0",
+  "unity": "2022.3",
+  "description": "エラーなどでワールドから落ちて同じインスタンスに入り直したとき、元いた場所へ自動で戻す UdonSharp スクリプト。",
+  "author": {
+    "name": "MetraZero",
+    "url": "https://github.com/MetraZero"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/MetraZero/Metlab-WLD/tree/main/Packages/com.metlab.wld.returnpoint",
+  "changelogUrl": "https://github.com/MetraZero/Metlab-WLD/blob/main/Packages/com.metlab.wld.returnpoint/CHANGELOG.md",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.8.0"
+  }
+}
