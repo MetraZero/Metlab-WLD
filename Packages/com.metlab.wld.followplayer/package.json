@@ -1,7 +1,7 @@
 {
   "name": "com.metlab.wld.followplayer",
   "displayName": "オブジェクトをプレイヤーについてこさせるやつ",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "unity": "2022.3",
   "description": "オブジェクトをローカルプレイヤーの位置に追従させる UdonSharp スクリプト。軸ごとのON/OFFと範囲制限付き。",
   "author": {
