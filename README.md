@@ -10,7 +10,7 @@ MetraZero 制作の VRChat ワールド向けツールです。
 | [オブジェクトをプレイヤーについてこさせるやつ](Packages/com.metlab.wld.followplayer) | `com.metlab.wld.followplayer` | オブジェクトをローカルプレイヤーの位置に追従させる UdonSharp スクリプト。軸ごとのON/OFFと範囲制限付き。 | 1.0.0 |
 | [レイマーチングでスカイボックスをつくるやつ](Packages/com.metlab.wld.skybox) | `com.metlab.wld.skybox` | 時間帯・天気・街並みを選ぶだけで、街の夜景などのスカイボックス用マテリアルを作るエディタ拡張とシェーダー。 | 1.1.0 |
 | [ジョインをおしらせするやつ](Packages/com.metlab.wld.joinnotice) | `com.metlab.wld.joinnotice` | 誰かがワールドに入ってきた・出ていったときに、目の前に通知を出す UdonSharp ギミック。人ごとに文言や音を変えられる。 | 1.0.0 |
-| [オブジェクトをランダムにだすやつ](Packages/com.metlab.wld.randomizer) | `com.metlab.wld.randomizer` | 登録したオブジェクトを、設定した確率でまとめてON/OFFする UdonSharp スクリプト。抽選結果は全員で共有される。 | 0.0.0 |
+| [オブジェクトをランダムにだすやつ](Packages/com.metlab.wld.randomizer) | `com.metlab.wld.randomizer` | 登録したオブジェクトを、設定した確率でまとめてON/OFFする UdonSharp スクリプト。抽選結果は全員で共有される。 | 1.0.0 |
 | [近づくとひらくドアにするやつ](Packages/com.metlab.wld.autodoor) | `com.metlab.wld.autodoor` | プレイヤーが近づくとドアがスライドして開き、離れると閉じる UdonSharp スクリプト。Animator 不要で複数枚のドアに対応。 | 0.0.0 |
 | [昼と夜をきりかえるやつ](Packages/com.metlab.wld.daynight) | `com.metlab.wld.daynight` | ワールド全体の昼／夜を全員で切り替え、場所ごとの空（スカイボックス）や昼だけ・夜だけのオブジェクトも切り替える UdonSharp ギミック。 | 0.0.0 |
 | [落ちても元の場所にもどれるやつ](Packages/com.metlab.wld.returnpoint) | `com.metlab.wld.returnpoint` | エラーなどでワールドから落ちて同じインスタンスに入り直したとき、元いた場所へ自動で戻す UdonSharp スクリプト。 | 0.0.0 (BETA) |
