@@ -13,7 +13,7 @@ MetraZero 制作の VRChat ワールド向けツールです。
 | [オブジェクトをランダムにだすやつ](Packages/com.metlab.wld.randomizer) | `com.metlab.wld.randomizer` | 登録したオブジェクトを、設定した確率でまとめてON/OFFする UdonSharp スクリプト。抽選結果は全員で共有される。 | 1.0.0 |
 | [近づくとひらくドアにするやつ](Packages/com.metlab.wld.autodoor) | `com.metlab.wld.autodoor` | プレイヤーが近づくとドアがスライドして開き、離れると閉じる UdonSharp スクリプト。Animator 不要で複数枚のドアに対応。 | 1.0.0 |
 | [昼と夜をきりかえるやつ](Packages/com.metlab.wld.daynight) | `com.metlab.wld.daynight` | ワールド全体の昼／夜を全員で切り替え、場所ごとの空（スカイボックス）や昼だけ・夜だけのオブジェクトも切り替える UdonSharp ギミック。 | 1.0.0 |
-| [落ちても元の場所にもどれるやつ](Packages/com.metlab.wld.returnpoint) | `com.metlab.wld.returnpoint` | エラーなどでワールドから落ちて同じインスタンスに入り直したとき、元いた場所へ自動で戻す UdonSharp スクリプト。 | 0.0.0 (BETA) |
+| [落ちても元の場所にもどれるやつ](Packages/com.metlab.wld.returnpoint) | `com.metlab.wld.returnpoint` | エラーなどでワールドから落ちて同じインスタンスに入り直したとき、元いた場所へ自動で戻す UdonSharp スクリプト。 | 0.1.0 (BETA) |
 | [持ったものの大きさをかえるやつ](Packages/com.metlab.wld.pickupscaler) | `com.metlab.wld.pickupscaler` | Pickup を片手で持ち、もう片方の手のグラブで両手を近づける・離すと縮小・拡大できる UdonSharp スクリプト（VR 向け）。 | 0.0.0 |
 | [ほかのプレイヤーをつかむやつ](Packages/com.metlab.wld.playergrab) | `com.metlab.wld.playergrab` | 手に持ったアイテムで、離れた場所にいるほかのプレイヤーを掴んで、ふわふわ持ち上げて運べる UdonSharp ギミック。 | 0.0.0 (BETA) |
 

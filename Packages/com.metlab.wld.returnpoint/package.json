@@ -1,7 +1,7 @@
 {
   "name": "com.metlab.wld.returnpoint",
   "displayName": "落ちても元の場所にもどれるやつ",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "unity": "2022.3",
   "description": "エラーなどでワールドから落ちて同じインスタンスに入り直したとき、元いた場所へ自動で戻す UdonSharp スクリプト。",
   "author": {
